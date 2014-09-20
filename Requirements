@@ -1,1 +1,45 @@
-Sample File 
+Definitions:
+Crate: Defined as a plastic storage bin which contains one or more Items and can be stored in a shelf location in the storage room. 
+Item: Defined as an object (i.e. Scissors) or a group of objects/package of objects (5 Scissors) that are stored inside a Crate.
+Project Category: A Crate will optionally contain a Project Category, composed of  one or more Items related to a certain Projects (i.e. “Flintstones”). Each Project Category will maintain a general list and quantity of the Items required for the project.
+Crate Category: A Crate will have an optional Crate Category, based on one or more Items having mutual characteristics (i.e. “Electronics” Category will contain electronic Items inside). 
+
+Users:
+Administrator: The role of the Administrator will be to manage the Items and Crates in the storage room. The Administrator has also the capability to deny or accept any request to borrow any of the Items or Crates to a guest. The Administrator will be able to locate the Items and Crates in the storage room.
+Guest : The role of the Guest is to request or return Items or Crates to the storage room. They will also be able to view the current Items or Crates located in the storage room. The Guest shall be able to retrieve Items from Crate after the Administrator accepted the request.
+Users: Administrator and Guest Users.
+
+Requirements:
+ 
+The System shall be able to locate an Item inside a Crate.
+The System shall be able to locate a Crate inside the storage room.
+The Administrator shall be able to manage the Crates.
+The Administrator shall be able to register a new Crate to the System.
+The Administrator shall be able to remove a Crate from the System.
+The Administrator shall be able to assign a Crate Category or a Project Category to a Crate.
+The Administrator shall be able to manage an Item.
+The Administrator shall be able to register a new Item to the System.
+The Administrator shall be able to remove an Item from the System.
+The Administrator shall be able to add a description of an item (i.e yellow shirts of 2012).
+The System shall be able to identify an Item by different names.
+The System shall be able to recall a relative stock level for  certain Items like a carton of popsicle sticks (i.e. ½ full or ¼ full)
+The System shall be able to provide some description of the Crate.
+The System shall be able provide a list of the Items contained in the Crate.
+The System shall be able to provide the name of the Project or Crate Category.
+The System shall be able to provide some description of an Item,
+The System shall be able to categorize a Crate into a Project Category or Crate Category.
+The System shall be able to display a name for a  Project and Crate Category.
+The System shall be able to display the list of Items necessary for a Project Category.
+The System shall be able to notify the Administrator if all of the Items necessary are available for a Crate Project
+The System shall be able to update the inventory of Items available upon request.
+The System shall allow Users to view current available inventory
+The System shall be able to notify the Administrator when a certain type of Item is low on quantity.
+The System shall allow Guests to request Items or Crates for check-out from the storage room.
+The Administrator shall be able to approve and/or deny a request from a Guest to check-out an Item from the storage room
+The System shall be able to recall information on  the Guest who checked out an Item.
+The Users shall be able to access the inventory information from a Web based application.
+The Users shall be able to access the inventory information from a Mobile based application.
+
+
+
+
